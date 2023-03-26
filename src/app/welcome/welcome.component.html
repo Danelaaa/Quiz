@@ -1,0 +1,17 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">გამარჯობა</h1>
+    <p class="col-md-8 fs-4">ეს ქვიზი მოიცავს 9 კითხვას და თითოეული სწორი პასუხი უდრის 10 ქულას.</p>
+    <h4>წესები:</h4>
+    <ol>
+        <li>სწორ პასუხზე მიიღებ 10 ქულას</li>
+        <li>არასწორ პასუხზე -10 ქულას</li>
+        <li>თითოეული კითხვისთვის განსაზღვრულია 60 წამი</li>
+        <li>რეფრეშის შემთხვევაში ქვიზიც დარეფრეშდება</li>
+    </ol>
+    <h1 style="font-family: cursive;text-align:center">წარმატებები !!</h1>
+    <div class="name col-md-4 my-3">
+        <label for="">თქვენი სახელი:</label>
+        <input #name type="text" class="form-control">
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">ქვიზის დაწყება</button>
+</div>
